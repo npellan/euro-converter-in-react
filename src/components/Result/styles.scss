@@ -1,0 +1,23 @@
+@use 'src/styles/vars';
+
+.result {
+  background-color: vars.$color-light;
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+
+  &__number {
+    font-weight: 700;
+    color: vars.$color;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  &__currency {
+    color: vars.$color;
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+}
+
